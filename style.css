@@ -1,0 +1,92 @@
+body {
+    background-image: url('d.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input {
+    background-color: rgba(142, 127, 161, 0.3);
+    border-radius: 20px;
+    border: 3px solid #FF5733;
+    padding: 15px;
+    font-size: 20px;
+}
+
+#btn{
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid #FF5733;
+    background-color: rgba(142, 127, 161, 0.3);
+    color: #fff;
+    outline: none;
+}
+
+#input:focus {
+    background-color: #fff;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: #fff;
+    font-size: 45px;
+}
+
+#date {
+    color: #fff;
+    font-size: 24px;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature {
+    color: #fff;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 5px 10px black;
+    margin: 0;
+}
+
+#feelslike {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+#conditions {
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#variation {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+}
